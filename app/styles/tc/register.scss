@@ -13,9 +13,11 @@
     align-items: center;
     button {
       margin-top: 0;
+      background-color: $tc-dark-blue-90;
       &.disabled {
-        background-color: $tc-gray-70 !important;
+        background-color: $tc-gray-60 !important;
         color: $tc-white-cream;
+        opacity: 1;
       }
     }
 
@@ -63,15 +65,15 @@
   }
 
   .login-options .networks .network {
-
     span {
       color: #757585;
+      text-decoration: underline;  
     }
     .ico:focus {
       outline: 3px solid #77A1F8;
     }
   }
-}
+} 
 
 .join-topcoder {
   a {
